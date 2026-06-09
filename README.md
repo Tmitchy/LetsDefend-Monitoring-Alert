@@ -8,3 +8,5 @@ Determine whether the file/script download was malicious, identify the affected 
 
 <img width="750" height="279" alt="image" src="https://github.com/user-attachments/assets/46156a6d-2078-4e92-9a17-5807fc89a058" />
 
+
+<img width="950" height="189" alt="image" src="https://github.com/user-attachments/assets/8126e74c-cb68-48ea-a3ef-ca10f517cef3" />
