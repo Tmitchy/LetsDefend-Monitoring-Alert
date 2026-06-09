@@ -4,3 +4,6 @@ On 14 March 2021 at 07:15 PM, alert SOC137 - Malicious File/Script Download Atte
 
 ## Objective: 
 Determine whether the file/script download was malicious, identify the affected system and user, assess any subsequent execution activity, and recommend containment or remediation actions if compromise is confirmed.
+
+
+<img width="428" height="248" alt="image" src="https://github.com/user-attachments/assets/7f16774c-52ed-4f65-ab74-cd779a9aef16" />
