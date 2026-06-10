@@ -9,25 +9,29 @@ On 14 March 2021 at 07:15 PM, alert SOC137 - Malicious File/Script Download Atte
 - and recommend containment or remediation actions if compromise is confirmed.<br><br>
 
 
-<img width="823" height="200" alt="image" src="https://github.com/user-attachments/assets/46156a6d-2078-4e92-9a17-5807fc89a058" /><br>
+<img width="823" height="350" alt="image" src="https://github.com/user-attachments/assets/46156a6d-2078-4e92-9a17-5807fc89a058" /><br>
 *Fig 1*
 
-<img width="823" height="200" alt="image" src="https://github.com/user-attachments/assets/8126e74c-cb68-48ea-a3ef-ca10f517cef3" /><br>
+<img width="823" height="350" alt="image" src="https://github.com/user-attachments/assets/8126e74c-cb68-48ea-a3ef-ca10f517cef3" /><br>
 *Fig 2*
+## Event Description
+
+The event reported a blocked attempt to download a potentially malicious file named `INVOICE PACKAGE LINK TO DOWNLOAD.docm`, as shown in the images below. The images display the hashed file along with the device/host information and the assigned IP address. This crucial information necessitates further analysis to determine whether the file is indeed malicious and to implement any required protective measures.
 
 <img width="823" height="200" alt="image" src="https://github.com/user-attachments/assets/f34fe10e-48b6-4265-a794-dfc705405dae" /><br>
 *Fig 3*
 
-The event involved a blocked attempt to download a potentially malicious file named `INVOICE PACKAGE LINK TO DOWNLOAD.docm` from the URL provided. Further analysis is needed to understand whether the file is malicious or not, and take measures accordingly.
-
 <img width="823" height="200" alt="image" src="https://github.com/user-attachments/assets/1f70db7c-642e-45d3-b3c2-df3a69890bb2" /><br>
-*Fig 4*
+*Fig 4*<br>
+I started by gathering information by identifying the host/IP of the device to first quarantine the device by disconnecting it from the network, as seen in the image below. 
+
+<img width="675" height="117" alt="image" src="https://github.com/user-attachments/assets/6eef784e-7371-4343-8285-6b49c65130af" />
 
 <img width="823" height="350" alt="image" src="https://github.com/user-attachments/assets/7f6dd59a-a241-47d3-a97d-83936ac08bda" /><br>
 
 <img width="823" height="350" alt="image" src="https://github.com/user-attachments/assets/27fcef12-d7d5-4967-b35b-d11f308549e9" /><br>
 
-<img width="823" height="300" alt="image" src="https://github.com/user-attachments/assets/c4c24083-49ac-4964-8443-f5536cef3544" /><br>
+
 
 <img width="823" height="300" alt="image" src="https://github.com/user-attachments/assets/0843df54-8753-4cf2-9428-0febb43e11fa" /><br>
 
@@ -43,7 +47,7 @@ The event involved a blocked attempt to download a potentially malicious file na
 
 <img width="433" height="229" alt="image" src="https://github.com/user-attachments/assets/cfd0dc94-b61c-42e8-8cdd-aa14b4484486" />
 
-<img width="675" height="117" alt="image" src="https://github.com/user-attachments/assets/6eef784e-7371-4343-8285-6b49c65130af" />
+
 
 <img width="479" height="272" alt="image" src="https://github.com/user-attachments/assets/f10cda6c-17b8-4cb9-b90b-a49fa9413918" />
 
