@@ -23,7 +23,8 @@ The event reported a blocked attempt to download a potentially malicious file na
 
 <img width="823" height="200" alt="image" src="https://github.com/user-attachments/assets/1f70db7c-642e-45d3-b3c2-df3a69890bb2" /><br>
 *Fig 4*<br>
-I started by gathering information by identifying the host/IP of the device to first quarantine the device by disconnecting it from the network, as seen in the image below. 
+
+I began by collecting information, including the hostname and IP address of the device. Once I discovered the host on the network, the first step was to quarantine the device by disconnecting it from the network, as shown in the image below. After that, I examined the processes, network activity, terminal History, and browser history to gather more information about the alerted malicious file.
 
 <img width="675" height="117" alt="image" src="https://github.com/user-attachments/assets/6eef784e-7371-4343-8285-6b49c65130af" />
 
