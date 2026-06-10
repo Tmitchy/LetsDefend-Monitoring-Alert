@@ -10,12 +10,18 @@ On 14 March 2021 at 07:15 PM, alert SOC137 - Malicious File/Script Download Atte
 
 
 <img width="823" height="200" alt="image" src="https://github.com/user-attachments/assets/46156a6d-2078-4e92-9a17-5807fc89a058" /><br>
+*Fig 1*
 
 <img width="823" height="200" alt="image" src="https://github.com/user-attachments/assets/8126e74c-cb68-48ea-a3ef-ca10f517cef3" /><br>
+*Fig 2*
 
 <img width="823" height="200" alt="image" src="https://github.com/user-attachments/assets/f34fe10e-48b6-4265-a794-dfc705405dae" /><br>
+*Fig 3*
+
+The event involved a blocked attempt to download a potentially malicious file named `INVOICE PACKAGE LINK TO DOWNLOAD.docm` from the URL provided. Further analysis is needed to understand whether the file is malicious or not, and take measures accordingly.
 
 <img width="823" height="200" alt="image" src="https://github.com/user-attachments/assets/1f70db7c-642e-45d3-b3c2-df3a69890bb2" /><br>
+*Fig 4*
 
 <img width="823" height="350" alt="image" src="https://github.com/user-attachments/assets/7f6dd59a-a241-47d3-a97d-83936ac08bda" /><br>
 
