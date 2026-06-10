@@ -24,7 +24,7 @@ The event reported a blocked attempt to download a potentially malicious file na
 <img width="823" height="200" alt="image" src="https://github.com/user-attachments/assets/1f70db7c-642e-45d3-b3c2-df3a69890bb2" /><br>
 *Fig 4*<br>
 
-I began by collecting information, including the hostname and IP address of the device. Once I discovered the host on the network, the first step was to quarantine the device by disconnecting it from the network, as shown in the image below. After that, I examined the processes, network activity, terminal History, and browser history to gather more information about the alerted malicious file.
+I began by collecting information, including the hostname `NicolasPRD` and the IP address `172.16.17.37` of the device running on `Windows 10`. Once I discovered the host on the network, the first step was to quarantine the device by disconnecting it from the network, as shown in the image below. After that, I examined the processes, network activity, terminal History, and browser history to gather more information about the alerted malicious file.
 
 <img width="823" height="300" alt="image" src="https://github.com/user-attachments/assets/6eef784e-7371-4343-8285-6b49c65130af" /><br>
 *Fig 5*
