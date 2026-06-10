@@ -40,3 +40,5 @@ On 14 March 2021 at 07:15 PM, alert SOC137 - Malicious File/Script Download Atte
 <img width="675" height="117" alt="image" src="https://github.com/user-attachments/assets/6eef784e-7371-4343-8285-6b49c65130af" />
 
 <img width="479" height="272" alt="image" src="https://github.com/user-attachments/assets/f10cda6c-17b8-4cb9-b90b-a49fa9413918" />
+
+<img width="776" height="350" alt="image" src="https://github.com/user-attachments/assets/cff15b9f-806e-4e7a-a2b4-a5ee375e755d" />
