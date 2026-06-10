@@ -31,11 +31,9 @@ I began by collecting information, including the hostname `NicolasPRD` and the I
 
 ## Terminal History
 
-During the examination of the terminal, three malicious PowerShell commands were identified at different time intervals. These commands contained suspicious elements such as `Invoke-Expression (IEX)`,`powershell.exe`, `ExecutionPolicy Bypass`, `Window Hidden`, `NonInteractive`, `IEX`, `FromBase64String`, `DeflateStream`, and `[Convert]:: FromBase64String`, used to convert from a base-32 format. The presence of these indicators suggests that the payload is indeed malicious. Similar suspicious indicators were found in the other commands, and they were related to the alerted malicious file.<br>
+During the examination of the terminal, three malicious PowerShell commands were identified at different time intervals. These commands contained suspicious elements such as `Invoke-Expression (IEX)`,`powershell.exe`, `ExecutionPolicy Bypass`, `Window Hidden`, `NonInteractive`, `IEX`, `FromBase64String`, `DeflateStream`, and `[Convert]:: FromBase64String`, used to convert from a base-32 format. The presence of these indicators suggests that the payload is indeed malicious. Similar suspicious indicators were found in the other commands, but they were unrelated to the alerted malicious file.<br>
 
 Analyzing each payload presented challenges, particularly in extracting the strings needed to understand potential execution outcomes. Additionally, there was no information on how the host obtained the malicious PowerShell commands and payloads. As mentioned earlier, the indicators in the command lines revealed the presence of an obfuscated PowerShell malware downloader and loader as seen in *Fig. 6 & 7*. 
-
-
 
 <img width="823" height="350" alt="image" src="https://github.com/user-attachments/assets/7f6dd59a-a241-47d3-a97d-83936ac08bda" /><br>
 *Fig 6*
@@ -46,18 +44,28 @@ Analyzing each payload presented challenges, particularly in extracting the stri
 
 ## Examining the Processes and Network Action
 
-<img width="676" height="266" alt="image" src="https://github.com/user-attachments/assets/012f107c-a098-4ed8-9713-b39fec1e66ca" /><br>
+Currently, there is no concrete information to clarify whether these represent active processes or a network connection, which leaves us with uncertainty, as seen in the images below.
 
-<img width="683" height="259" alt="image" src="https://github.com/user-attachments/assets/7186e686-7297-4be7-b704-5c9e15254d09" /><br>
+<img width="823" height="300" alt="image" src="https://github.com/user-attachments/assets/012f107c-a098-4ed8-9713-b39fec1e66ca" /><br>
+*Fig 8*
 
-<img width="920" height="428" alt="image" src="https://github.com/user-attachments/assets/8bf4031c-c970-4506-934d-58483480436c" />
+<img width="823" height="300" alt="image" src="https://github.com/user-attachments/assets/7186e686-7297-4be7-b704-5c9e15254d09" /><br>
+*Fig 9*
 
-<img width="899" height="307" alt="image" src="https://github.com/user-attachments/assets/a60cf25c-d39e-4031-91b4-bfe88e4bc8b4" />
-
-<img width="433" height="229" alt="image" src="https://github.com/user-attachments/assets/cfd0dc94-b61c-42e8-8cdd-aa14b4484486" />
-
+## Examining the Malicious File: `INVOICE PACKAGE LINK TO DOWNLOAD.docm`, Hash: `f2d0c66b801244c059f636d08a474079`
 
 
-<img width="479" height="272" alt="image" src="https://github.com/user-attachments/assets/f10cda6c-17b8-4cb9-b90b-a49fa9413918" />
+<img width="920" height="428" alt="image" src="https://github.com/user-attachments/assets/8bf4031c-c970-4506-934d-58483480436c" /><br>
+*Fig 10*
 
-<img width="776" height="350" alt="image" src="https://github.com/user-attachments/assets/cff15b9f-806e-4e7a-a2b4-a5ee375e755d" />
+<img width="899" height="307" alt="image" src="https://github.com/user-attachments/assets/a60cf25c-d39e-4031-91b4-bfe88e4bc8b4" /><br>
+*Fig 11*
+
+<img width="433" height="229" alt="image" src="https://github.com/user-attachments/assets/cfd0dc94-b61c-42e8-8cdd-aa14b4484486" /><br>
+*Fig 12*
+
+<img width="479" height="272" alt="image" src="https://github.com/user-attachments/assets/f10cda6c-17b8-4cb9-b90b-a49fa9413918" /><br>
+*Fig 13*
+
+<img width="776" height="350" alt="image" src="https://github.com/user-attachments/assets/cff15b9f-806e-4e7a-a2b4-a5ee375e755d" /><br>
+*Fig 14*
