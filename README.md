@@ -26,9 +26,17 @@ The event reported a blocked attempt to download a potentially malicious file na
 
 I began by collecting information, including the hostname and IP address of the device. Once I discovered the host on the network, the first step was to quarantine the device by disconnecting it from the network, as shown in the image below. After that, I examined the processes, network activity, terminal History, and browser history to gather more information about the alerted malicious file.
 
-<img width="675" height="117" alt="image" src="https://github.com/user-attachments/assets/6eef784e-7371-4343-8285-6b49c65130af" />
+<img width="823" height="300" alt="image" src="https://github.com/user-attachments/assets/6eef784e-7371-4343-8285-6b49c65130af" /><br>
+*Fig 5*
+
+## Terminal History
+
+During the examination of the terminal, three malicious PowerShell commands were identified at different time intervals. These commands contained suspicious elements such as `Invoke-Expression (IEX)`,`powershell.exe`, `ExecutionPolicy Bypass`, `Window Hidden`, `NonInteractive`, `IEX`, `FromBase64String`, `DeflateStream`, and `[Convert]:: FromBase64String`, used to convert from a base-32 format. The presence of these indicators suggests that the payload is indeed malicious. Similar suspicious indicators were found in the other commands, and they were related to the alerted malicious file.<br>
+
+During the analysis of each payload, it was challenging to pull out the strings to understand what would happen if it were executed. It was discovered to be an obfuscated PowerShell malware downloader/loader 
 
 <img width="823" height="350" alt="image" src="https://github.com/user-attachments/assets/7f6dd59a-a241-47d3-a97d-83936ac08bda" /><br>
+*Fig 6*
 
 <img width="823" height="350" alt="image" src="https://github.com/user-attachments/assets/27fcef12-d7d5-4967-b35b-d11f308549e9" /><br>
 
