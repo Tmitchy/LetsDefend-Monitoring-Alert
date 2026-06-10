@@ -44,7 +44,7 @@ Analyzing each payload presented challenges, particularly in extracting the stri
 *Fig 7
 
 
-
+## Examining the Processes and Network Action
 
 <img width="676" height="266" alt="image" src="https://github.com/user-attachments/assets/012f107c-a098-4ed8-9713-b39fec1e66ca" /><br>
 
