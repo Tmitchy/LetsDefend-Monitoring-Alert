@@ -33,7 +33,11 @@ I began by collecting information, including the hostname and IP address of the 
 
 During the examination of the terminal, three malicious PowerShell commands were identified at different time intervals. These commands contained suspicious elements such as `Invoke-Expression (IEX)`,`powershell.exe`, `ExecutionPolicy Bypass`, `Window Hidden`, `NonInteractive`, `IEX`, `FromBase64String`, `DeflateStream`, and `[Convert]:: FromBase64String`, used to convert from a base-32 format. The presence of these indicators suggests that the payload is indeed malicious. Similar suspicious indicators were found in the other commands, and they were related to the alerted malicious file.<br>
 
-During the analysis of each payload, it was challenging to pull out the strings to understand what would happen if it were executed. It was discovered to be an obfuscated PowerShell malware downloader/loader 
+Analyzing each payload presented challenges, particularly in extracting the strings needed to understand potential execution outcomes. Additionally, there was no information on how the host obtained the malicious PowerShell commands and payloads. As mentioned earlier, the indicators in the command lines revealed the presence of obfuscated PowerShell malware downloader and loader.
+
+Furthermore 
+
+
 
 <img width="823" height="350" alt="image" src="https://github.com/user-attachments/assets/7f6dd59a-a241-47d3-a97d-83936ac08bda" /><br>
 *Fig 6*
@@ -42,9 +46,7 @@ During the analysis of each payload, it was challenging to pull out the strings 
 
 
 
-<img width="823" height="300" alt="image" src="https://github.com/user-attachments/assets/0843df54-8753-4cf2-9428-0febb43e11fa" /><br>
 
-<img width="823" height="350" alt="image" src="https://github.com/user-attachments/assets/7a14fe7f-7ccc-442e-86b7-56871b427b7e" /><br>
 
 <img width="676" height="266" alt="image" src="https://github.com/user-attachments/assets/012f107c-a098-4ed8-9713-b39fec1e66ca" /><br>
 
