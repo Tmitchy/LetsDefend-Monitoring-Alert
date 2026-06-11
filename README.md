@@ -84,17 +84,33 @@ It equally provides access to a few domains and connected IP addresses associate
 As shown in the images below, this provides essential properties of the file, including MD5, SHA-256, SHA-1, and more, to verify the malicious file.<br>
 It also includes the file's history, specifying its creation date, first submission, last submission, and the last analysis conducted on this file. The Names section lists additional names linked to the file, each referencing the malicious file.
 
+#### Behaviours
+
+This section contains detailed information about the malicious file, including a step-by-step technique devised by the threat actor. It also outlines MITRE ATT&CK Tactics and Techniques, behavior tags, network communications, and more. However, my main focus will be on the effects of executing this file on the system.<br>
+It is believed that the user made a `GET` request to `https://filetransfer.io/`, which redirected to the link `https://filetransfer.io/data-package/UR2whuBv/download`. However, this request was **blocked**. If it had been executed, it could have modified the file system and the file registry by running an unrecognized or potentially malicious process, as seen in the image below from Virustotal. 
+
+
+
 <img width="920" height="428" alt="image" src="https://github.com/user-attachments/assets/8bf4031c-c970-4506-934d-58483480436c" /><br>
 *Fig 10*
 
-<img width="899" height="307" alt="image" src="https://github.com/user-attachments/assets/a60cf25c-d39e-4031-91b4-bfe88e4bc8b4" /><br>
+<img width="781" height="293" alt="image" src="https://github.com/user-attachments/assets/81bddb52-3533-42bd-9570-6256b7d01b1f" /><br>
 *Fig 11*
 
-<img width="433" height="229" alt="image" src="https://github.com/user-attachments/assets/cfd0dc94-b61c-42e8-8cdd-aa14b4484486" /><br>
+<img width="607" height="138" alt="image" src="https://github.com/user-attachments/assets/d56f72ba-b9bb-44b2-ae39-20ee9b31d79f" /><br>
 *Fig 12*
 
-<img width="479" height="272" alt="image" src="https://github.com/user-attachments/assets/f10cda6c-17b8-4cb9-b90b-a49fa9413918" /><br>
+<img width="582" height="140" alt="image" src="https://github.com/user-attachments/assets/18b31608-8851-48ea-8293-82be4d0b8493" /><br>
 *Fig 13*
 
-<img width="776" height="350" alt="image" src="https://github.com/user-attachments/assets/cff15b9f-806e-4e7a-a2b4-a5ee375e755d" /><br>
+<img width="899" height="307" alt="image" src="https://github.com/user-attachments/assets/a60cf25c-d39e-4031-91b4-bfe88e4bc8b4" /><br>
 *Fig 14*
+
+<img width="433" height="229" alt="image" src="https://github.com/user-attachments/assets/cfd0dc94-b61c-42e8-8cdd-aa14b4484486" /><br>
+*Fig 15*
+
+<img width="479" height="272" alt="image" src="https://github.com/user-attachments/assets/f10cda6c-17b8-4cb9-b90b-a49fa9413918" /><br>
+*Fig 16*
+
+<img width="776" height="350" alt="image" src="https://github.com/user-attachments/assets/cff15b9f-806e-4e7a-a2b4-a5ee375e755d" /><br>
+*Fig 17*
