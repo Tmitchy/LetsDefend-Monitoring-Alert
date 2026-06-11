@@ -138,7 +138,7 @@ Analyse Malware?
 
 Check If Someone Requested the C2
 
-- Answer: I found no indications that the C2 has been accessed.
+- Answer: I found no indications that the C2 has been accessed.<br><br>
 
 I can confidently close the case, recognizing it as a **True positive**.
 
