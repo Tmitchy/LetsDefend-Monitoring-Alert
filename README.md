@@ -121,6 +121,27 @@ This lists and explains what the file contains after an analysis was performed o
 <img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/a60cf25c-d39e-4031-91b4-bfe88e4bc8b4" /><br>
 *Fig 14*
 
+## Creating Case
+
+### Playbook Answers
+- Select Threat Indicator?
+- 
+Answer: Other
+
+- Malware quarantined/cleaned?
+
+Answer: I've realized that "not quarantined" isn't the right response, despite my belief that a block doesn't automatically imply quarantine. However, since LetsDefend interprets it that way, we should accept that the correct answer is "quarantined."
+
+- Analyse Malware?
+
+Answer: Malicious.
+
+- Check If Someone Requested the C2
+
+Answer: I found no indications that the C2 has been accessed.
+
+I can confidently close the case, recognizing it as a **True positive**.
+
 <img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/cfd0dc94-b61c-42e8-8cdd-aa14b4484486" /><br>
 *Fig 15*
 
@@ -129,3 +150,5 @@ This lists and explains what the file contains after an analysis was performed o
 
 <img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/cff15b9f-806e-4e7a-a2b4-a5ee375e755d" /><br>
 *Fig 17*
+
+#
