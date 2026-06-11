@@ -56,7 +56,13 @@ Currently, there is no concrete information to clarify whether these represent a
 
 Examining the Malicious File: `INVOICE PACKAGE LINK TO DOWNLOAD.docm`, Hash: `f2d0c66b801244c059f636d08a474079`
 
-### Malware Analysis Results with Virus Total 
+### Malware Analysis Results with VirusTotal 
+
+There are three most important sections to perform the malware analysis on VirusTotal, which are Details, Relations, and Behaviours.
+
+#### Relations
+
+As shown in the images below, the relations provided URLs that the malicious file is connected to. Therefore, when the file is executed by the host, it directs the host to these links. **URL:** `https://filetransfer.io/data-package/UR2whuBv/download`, `	https://filetransfer.io/`
 
 <img width="920" height="428" alt="image" src="https://github.com/user-attachments/assets/8bf4031c-c970-4506-934d-58483480436c" /><br>
 *Fig 10*
