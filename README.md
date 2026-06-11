@@ -81,6 +81,9 @@ It equally provides access to a few domains and connected IP addresses associate
 
 #### Details
 
+As shown in the images below, this provides essential properties of the file, including MD5, SHA-256, SHA-1, and more, to verify the malicious file.<br>
+It also includes the file's history, specifying its creation date, first submission, last submission, and the last analysis conducted on this file. The Names section lists additional names linked to the file, each referencing the malicious file.
+
 <img width="920" height="428" alt="image" src="https://github.com/user-attachments/assets/8bf4031c-c970-4506-934d-58483480436c" /><br>
 *Fig 10*
 
