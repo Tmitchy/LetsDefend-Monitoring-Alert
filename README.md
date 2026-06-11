@@ -1,4 +1,17 @@
 # LetsDefend-Monitoring-Alert
+
+`EventID:76`<br>
+`Event Time: Mar, 14, 2021, 07:15 PM`<br>
+`Rule: SOC137 - Malicious File/Script Download Attempt`<br>
+`Level: Security Analyst`<br>
+`Source Address:172.16.17.37`<br>
+`Source Hostname: NicolasPRD`<br>
+`File Name: INVOICE PACKAGE LINK TO DOWNLOAD.docm`<br>
+`File Hash:f2d0c66b801244c059f636d08a474079`<br>
+`File Size:16.66 Kb`<br>
+`Device Action: Blocked`<br>
+`Download (Password: infected):https://files-ld.s3.us-east-2.amazonaws.com/f2d0c66b801244c059f636d08a474079.zip`<br>
+
 ## Analysis:
 On 14 March 2021 at 07:15 PM, alert SOC137 - Malicious File/Script Download Attempt was triggered, indicating a potential malware-related activity. The alert is mapped to MITRE ATT&CK Technique T1204 (User Execution), suggesting that a user may have executed or attempted to download a malicious file or script. As a security analyst, I would investigate the affected host, identify the source URL or IP address, review downloaded files, analyze process execution events, and determine whether the download was successful. Additional analysis would include checking endpoint logs, antivirus detections, and network traffic to assess the scope and impact of the activity. Given the Medium severity, the event requires validation to determine whether it represents a genuine compromise or a false positive.
 
