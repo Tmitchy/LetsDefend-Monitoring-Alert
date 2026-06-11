@@ -125,7 +125,7 @@ This lists and explains what the file contains after an analysis was performed o
 
 ### Playbook Answers
 - Select Threat Indicator?
-- 
+
 Answer: Other
 
 - Malware quarantined/cleaned?
