@@ -62,7 +62,11 @@ There are three most important sections to perform the malware analysis on Virus
 
 #### Relations
 
-As shown in the images below, the relations provided URLs that the malicious file is connected to. Therefore, when the file is executed by the host, it directs the host to these links. **URL:** `https://filetransfer.io/data-package/UR2whuBv/download`, `	https://filetransfer.io/`
+As shown in the images below, the relations provided URLs associated with the malicious file. Therefore, when the host executes the file, it directs the host to these links. **URL:** `https://filetransfer.io/data-package/UR2whuBv/download`, `	https://filetransfer.io/`.<br>
+
+It equally provides access to a few domains and connected IP addresses associated with the file, as seen in the image below.
+
+#### Details
 
 <img width="920" height="428" alt="image" src="https://github.com/user-attachments/assets/8bf4031c-c970-4506-934d-58483480436c" /><br>
 *Fig 10*
