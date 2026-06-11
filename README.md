@@ -124,21 +124,21 @@ This lists and explains what the file contains after an analysis was performed o
 ## Creating Case for Event ID: 76
 
 ### Playbook Answers
-- Select Threat Indicator?
+Select Threat Indicator?
 
-Answer: Other
+- Answer: Other
 
-- Malware quarantined/cleaned?
+Malware quarantined/cleaned?
 
-Answer: I've realized that "not quarantined" isn't the right response, despite my belief that a block doesn't automatically imply quarantine. However, since LetsDefend interprets it that way, we should accept that the correct answer is "quarantined."
+- Answer: I've realized that "not quarantined" isn't the right response, despite my belief that a block doesn't automatically imply quarantine. However, since LetsDefend interprets it that way, we should accept that the correct answer is "quarantined."
 
-- Analyse Malware?
+Analyse Malware?
 
-Answer: Malicious.
+- Answer: Malicious.
 
-- Check If Someone Requested the C2
+Check If Someone Requested the C2
 
-Answer: I found no indications that the C2 has been accessed.
+- Answer: I found no indications that the C2 has been accessed.
 
 I can confidently close the case, recognizing it as a **True positive**.
 
