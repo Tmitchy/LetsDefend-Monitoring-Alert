@@ -12,10 +12,10 @@
 `Device Action: Blocked`<br>
 `Download (Password: infected):https://files-ld.s3.us-east-2.amazonaws.com/f2d0c66b801244c059f636d08a474079.zip`<br>
 
-## Analysis:
+## Analysis
 On 14 March 2021 at 07:15 PM, alert SOC137 - Malicious File/Script Download Attempt was triggered, indicating a potential malware-related activity. The alert is mapped to MITRE ATT&CK Technique T1204 (User Execution), suggesting that a user may have executed or attempted to download a malicious file or script. As a security analyst, I would investigate the affected host, identify the source URL or IP address, review downloaded files, analyze process execution events, and determine whether the download was successful. Additional analysis would include checking endpoint logs, antivirus detections, and network traffic to assess the scope and impact of the activity. Given the Medium severity, the event requires validation to determine whether it represents a genuine compromise or a false positive.
 
-## Objective: 
+## Objective
 - Determine whether the file/script download was malicious,
 - Identify the affected system and user,
 - Assess any subsequent execution activity,
@@ -68,6 +68,8 @@ Currently, there is no concrete information to clarify whether these represent a
 ## File Analysis
 
 Examining the Malicious File: `INVOICE PACKAGE LINK TO DOWNLOAD.docm`, Hash: `f2d0c66b801244c059f636d08a474079`
+
+The malicious document is said to be a **Macros** by Virustotal, which is used by malicious actors to deliver malware.
 
 ### Malware Analysis Results with VirusTotal 
 
