@@ -121,7 +121,7 @@ This lists and explains what the file contains after an analysis was performed o
 <img width="800" height="350" alt="image" src="https://github.com/user-attachments/assets/a60cf25c-d39e-4031-91b4-bfe88e4bc8b4" /><br>
 *Fig 14*
 
-## Creating Case
+## Creating Case for Event ID: 76
 
 ### Playbook Answers
 - Select Threat Indicator?
